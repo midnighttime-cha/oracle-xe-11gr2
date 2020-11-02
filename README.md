@@ -1,3 +1,7 @@
+docker build -t docker.pkg.github.com/midnighttime-cha/oracle-xe-11gr2/oracle-xe-11g-r2 .
+
+docker push docker.pkg.github.com/midnighttime-cha/oracle-xe-11gr2/oracle-xe-11g-r2
+
 docker run -d \
 -v $PWD/app:/u01/app \
 -p 1521:1521 \
@@ -6,4 +10,4 @@ docker run -d \
 -e ORACLE_ENABLE_XDB=true \
 --name oracle11g-xe-r2 \
 --restart=always \
-oracle11g-xe-r2
+docker.pkg.github.com/midnighttime-cha/oracle-xe-11gr2/oracle-xe-11g-r2
