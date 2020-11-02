@@ -1,5 +1,5 @@
 docker run -d \
--v $PWD/data:/u01/app/oracle/admin/XE/dpdump \
+-v $PWD/app:/u01/app \
 -p 1521:1521 \
 -e ORACLE_ALLOW_REMOTE=true \
 -e ORACLE_DISABLE_ASYNCH_IO=true \
