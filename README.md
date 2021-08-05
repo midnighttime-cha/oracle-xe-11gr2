@@ -1,3 +1,4 @@
+```bash
 docker build -t docker.pkg.github.com/midnighttime-cha/oracle-xe-11gr2/oracle-xe-11g-r2 .
 
 docker push docker.pkg.github.com/midnighttime-cha/oracle-xe-11gr2/oracle-xe-11g-r2
@@ -11,3 +12,4 @@ docker run -d \
 --name oracle11g-xe-r2 \
 --restart=always \
 docker.pkg.github.com/midnighttime-cha/oracle-xe-11gr2/oracle-xe-11g-r2
+```
