@@ -16,4 +16,4 @@ wnameless/oracle-xe-11g
 ```
 
 # อ้างอิง
-[docker-oracle-xe-11g](https://github.com/wnameless/docker-oracle-xe-11g)
+[Oracle Express Edition 11g Release 2 on Ubuntu 18.04 LTS](https://github.com/wnameless/docker-oracle-xe-11g)
